@@ -2,17 +2,12 @@
 #include <unistd.h>
 
 /**
- *main - prints line
- *Return: 1
-*/
-
+ * main - print using the write sys call
+ *
+ * Return: always 1
+ */
 int main(void)
 {
-	int l;
-
-	l = sizeof("and that piece of art is useful" - Dora Korpar, 2015-10-19");
-
-	write(2,
-	      "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", l);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
