@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print digit from 0 to 9
- * Return: 0;
+ *main-prints all numbers of base 10 starting from 0
+ *Return: 0;
  */
+
 int main(void)
 {
 	int n;
@@ -14,6 +15,6 @@ int main(void)
 		printf("%d", n);
 		n++;
 	}
-	puts("\n");
+	putchar('\n');
 	return (0);
 }
