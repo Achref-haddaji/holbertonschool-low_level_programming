@@ -2,8 +2,9 @@
 
 /**
  * print_diagonal - prints diagonal
- *@n: size
- * Return: none
+ *@c: input
+ *@d: input
+ * Return: Always 0.
  */
 
 void print_diagonal(int n)
