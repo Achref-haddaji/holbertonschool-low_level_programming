@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * function that creates an array of chars
+ * *create_array - of chars and initializes
  * @size: size
  * @c: character c
  * Return: NULL if size = 0
