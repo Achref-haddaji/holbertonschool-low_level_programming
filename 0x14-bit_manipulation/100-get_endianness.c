@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stidio>
+
 /**
 * get_endianness - the function
 *
@@ -7,7 +7,7 @@
 *
 */
 
-int get_endianness(void);
+int get_endianness(void)
 {
 unsigned int x = 1;
 char *c;
