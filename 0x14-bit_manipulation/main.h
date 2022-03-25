@@ -1,5 +1,5 @@
-#ifndef ACHREF_H
-#define ACHREF_H
+#ifndef ACHREF_h
+#define ACHREF_h
 
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
